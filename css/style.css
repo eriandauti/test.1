@@ -1,0 +1,142 @@
+
+.container{
+    flex-wrap: wrap;
+}
+.image{
+    width: 100%;
+    display: flex;
+
+}
+
+.navbar>.container-fluid .navbar-brand{
+    margin-left: 1em;
+}
+.collapse.navbar-collapse{
+    padding-left: 9em;
+}
+.img-circle{
+    height: 140px;
+    padding: 1em;
+    width: 140px;
+    align-items: center;
+}
+.row{
+    padding-left: 60px;
+    text-align: center  ;
+}
+.col-sm-3{
+    height: 60px;
+    padding-left: 3em;
+    font-size: 20px;
+}
+
+.image{
+    justify-content: space-between;
+    /* margin-left: 5em; */
+
+}
+
+.img-circle{
+    margin-left: 7em;
+    padding: 10px;
+  
+}
+
+.img-circle::after{
+    border: 2px solid;
+    color: black;
+    z-index: 2;
+}
+
+
+.bcg{
+    background-image: url(../images/bcg.jpg);
+
+    
+}
+.solo{
+display: flex;
+width:900px;
+height:800px;
+margin-left: 33em;
+}
+
+.season{
+    height: 200px;
+    margin: 5px 5px;
+    background-image: url(../images/season.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: burlywood;
+}
+
+.season section{
+    text-align: center;
+    position: relative;
+    padding-bottom: 2px;
+    top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+    color: white;
+}
+
+.btn.btn-default{
+  background-color: #fff;
+  padding: 14px 28px;
+  border: 0 solid #e2e8f0;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn.btn.btn-default:hover{
+    background-color:rgb(245, 194, 142)
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .btn btn-default {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+.shop{
+    width: 100%;
+    height: 300px;
+    
+}
+.myimage{
+    width: 240px;
+    height: 300px; 
+    margin: 10px 0 0 5em;
+}
+.col-md-4{
+    justify-content: space-around;
+    padding: 10px 20px 40px 10px;
+}
+
+.h3, h3{
+    color: black;
+    margin-right: 10em;
+    
+}
